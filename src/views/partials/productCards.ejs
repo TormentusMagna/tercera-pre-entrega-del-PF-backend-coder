@@ -1,0 +1,40 @@
+<% if (products && products.length > 0) { %>
+<section class="products-cards-container">
+  <% if (links) { %>
+  <% products.forEach(e => { %>
+  <article class="product-card">
+    <a href="http://<%= host %><%= path %>/<%= e.id %>">
+      <img src="<%= e.thumbnails[0]  %>" alt="<%= e.title %>" />
+    </a>
+    <h2><%= e.title %></h2>
+    <p><%= e.description %></p>
+    <p>Precio: $<%= e.price %></p>
+    <p>Código: <%= e.code %></p>
+    <p>Categoría: <%= e.category %></p>
+    <button class="btn-add-to-cart">ADD TO CART</button>
+  </article>
+  <% }) %>
+  <% } else { %>
+  <% products.forEach(e => { %>
+  <article class="product-card">
+    <img src="<%= e.thumbnails[0]  %>" alt="<%= e.title %>" />
+    <h2><%= e.title %></h2>
+    <p><%= e.description %></p>
+    <p>Precio: $<%= e.price %></p>
+    <p>Código: <%= e.code %></p>
+    <p>Categoría: <%= e.category %></p>
+    <button class="btn-add-to-cart">ADD TO CART</button>
+  </article>
+  <% }) %>
+  <% } %>
+
+
+</section>
+<% } else { %>
+<section class="no-products-to-show">
+  <h2>NO HAY PRODUCTOS A MOSTRAR</h2>
+</section>
+<% } %>
+
+
+

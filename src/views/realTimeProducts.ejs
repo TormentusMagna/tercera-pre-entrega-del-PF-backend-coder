@@ -1,0 +1,28 @@
+<header class="welcome-msg">
+  <h1>Bienvenido a T-Magna Soda Store</h1>
+  <p>Conóce nuestra gama de productos:</p>
+</header>
+<main>
+ 
+  <div style="display: flex; justify-content: space-evenly">
+    <div class="form-container">
+      <form id="formWebsockets" style="display: flex; flex-direction: column;">
+        <input type="text" name="title" placeholder="Add product name">
+        <input type="text" name="description" placeholder="Add product description">
+        <input type="text" name="code" placeholder="Add product code">
+        <input type="number" name="price" placeholder="Add product price">
+        <input type="text" name="status" placeholder="Add product status">
+        <input type="number" name="stock" placeholder="Add product stock">
+        <input type="text" name="category" placeholder="Add product category">
+        <input type="text" name="thumbnails" placeholder="Add thumbnails urls">
+  
+        <button>Agregar producto</button>
+        <button type="reset">RESET FORM</button>
+      </form>
+    </div>
+    <div id="productList">LISTA PRODUCTS</div>
+  </div>
+</main>
+<script src="/socket.io/socket.io.min.js"></script>
+<script src="/js/main.js"></script>
+

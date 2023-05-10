@@ -1,0 +1,23 @@
+<header class="welcome-msg">
+  <h1>T-Magna Soda Store</h1>
+  <p>Actualmente en tu carrito:</p>
+</header>
+<main>
+  <% if (products && products.length > 0) { %>
+  <section class="products-cards-container">
+    <% products.forEach(e => { %>
+    <article class="product-card">
+      <img src="<%= e.product.thumbnails[0]  %>" alt="<%= e.product.title %>" />
+      <h2><%= e.product.title %></h2>
+      <p><%= e.product.description %></p>
+      <p>Precio: $<%= e.product.price %></p>
+      <p>Cantidad: <%= e.quantity %></p>
+    </article>
+    <% }) %>
+  </section>
+  <% } else { %>
+  <section class="products-cards-container">
+    <h2>EL CARRITO ESTÁ VACIO</h2>
+  </section>
+  <% }%>
+</main>

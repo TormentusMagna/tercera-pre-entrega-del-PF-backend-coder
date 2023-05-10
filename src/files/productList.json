@@ -1,0 +1,145 @@
+[
+  {
+    "id": 1,
+    "title": "coca-cola original",
+    "description": "bebida gaseosa sabor cola",
+    "code": "CoCaOr*123",
+    "price": 25,
+    "status": true,
+    "stock": 1000,
+    "category": "refrescos",
+    "thumbnails": [
+      "https://www.coca-cola.com.mx/content/dam/one/mx/es/products/cco/Shot-product-mexico_gu%C3%ADa-Coca-Cola-sabor-original.png"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "coca-cola sin azucar",
+    "description": "bebida gaseosa sabor cola sin azucar",
+    "code": "CoCaNoSu*123",
+    "price": 25,
+    "status": true,
+    "stock": 1000,
+    "category": "refrescos",
+    "thumbnails": [
+      "https://www.coca-cola.com.mx/content/dam/one/mx/es/products/ccsa/Shot-product-mexico_gu%C3%ADa-Coca-Cola-sin-azucar.png"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "coca-cola con cafe",
+    "description": "bebida gaseosa sabor cola con extracto de cafe",
+    "code": "CoCaCaf*123",
+    "price": 30,
+    "status": true,
+    "stock": 1000,
+    "category": "refrescos",
+    "thumbnails": [
+      "https://www.coca-cola.com.mx/content/dam/one/mx/es/products/ccl/Shot-product-mexico_gu%C3%ADa-Coca-Cola-cafe.png"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "topo chico agua mineral",
+    "description": "agua mineral natural carbonatada",
+    "code": "ToChiMi*123",
+    "price": 20,
+    "status": true,
+    "stock": 2000,
+    "category": "refrescos",
+    "thumbnails": [
+      "https://www.coca-cola.com.mx/content/dam/one/mx/es/products/topochico/aguas/Botella-topochicoaguas.png"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "topo chico hard seltzer tangy lemon lime",
+    "description": "agua mineralizada con alcohol y un toque de sabor lemon lime",
+    "code": "ToChiTaLeLi*123",
+    "price": 45,
+    "status": true,
+    "stock": 3000,
+    "category": "alcohol",
+    "thumbnails": [
+      "https://www.coca-cola.com.mx/content/dam/one/mx/es/products/topochico/TOPOCHICO-HARDSELTZER-TANGYLEMON-355ML-SLEEKLATA_SECA_FRONT.png"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "topo chico hard seltzer pineapple twist",
+    "description": "agua mineralizada con alcohol y un toque de sabor pina",
+    "code": "ToChiPiTwi*123",
+    "price": 45,
+    "status": true,
+    "stock": 3000,
+    "category": "alcohol",
+    "thumbnails": [
+      "https://www.coca-cola.com.mx/content/dam/one/mx/es/products/topochico/TOPOCHICO-HARDSELTZER-PINNETWIST-355ML-SLEEKLATA-SECA-FRONT.png"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "topo chico hard seltzer strawberry guava",
+    "description": "agua mineralizada con alcohol y un toque de sabor fresa guayaba",
+    "code": "ToChiStraGua*123",
+    "price": 45,
+    "status": true,
+    "stock": 3000,
+    "category": "alcohol",
+    "thumbnails": [
+      "https://www.coca-cola.com.mx/content/dam/one/mx/es/products/topochico/TOPOCHICO-HARDSELTZER-STRAWBERRY-355ML-SLEEKLATA-SECA-FRONT.png"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "topo chico hard seltzer tropical mango",
+    "description": "agua mineralizada con alcohol y un toque de sabor mango tropical",
+    "code": "ToChiMaTro*123",
+    "price": 45,
+    "status": true,
+    "stock": 3000,
+    "category": "alcohol",
+    "thumbnails": [
+      "https://www.coca-cola.com.mx/content/dam/one/mx/es/products/topochico/TOPOCHICO-HARDSELTZER-TROPICAL-MANGO-355ML-SLEEKCAN-SECO-FRONT.png"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "fanta naranja",
+    "description": "bebida gaseosa sabor naranja",
+    "code": "FaNA*123",
+    "price": 25,
+    "status": true,
+    "stock": 1500,
+    "category": "refrescos",
+    "thumbnails": [
+      "https://www.coca-cola.com.mx/content/dam/one/mx/es/products/fanta/fanta-naranja_M%C3%A9xico.png"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "sprite",
+    "description": "bebida gaseosa sabor lima-limon",
+    "code": "Spri*123",
+    "price": 25,
+    "status": true,
+    "stock": 1500,
+    "category": "refrescos",
+    "thumbnails": [
+      "https://www.coca-cola.com.mx/content/dam/one/mx/es/products/sprite/sprite-etiquetado.png"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "sprite sin azucares",
+    "description": "bebida gaseosa sabor lima-limon sin azucar",
+    "code": "SpriNoSu*123",
+    "price": 25,
+    "status": true,
+    "stock": 1500,
+    "category": "refrescos",
+    "thumbnails": [
+      "https://www.coca-cola.com.mx/content/dam/one/mx/es/products/sprite/sprite-sin-azucar.png"
+    ]
+  }
+]

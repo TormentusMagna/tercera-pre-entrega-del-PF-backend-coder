@@ -1,0 +1,106 @@
+*,
+*::after,
+*::before {
+  border: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.welcome-msg {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-inline: auto;
+  padding: 2rem 0;
+  width: 60%;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: clamp(16px, 25px, 35px);
+    margin-bottom: 1rem;
+  }
+}
+
+.products-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-inline: auto;
+  width: 70%;
+
+  .product-card {
+    box-shadow: 0 1px 4px black;
+    margin: 0 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+    max-width: 250px;
+    height: auto;
+    padding: 1rem;
+    text-align: center;
+
+    img {
+      height: 200px;
+      margin-bottom: 1rem;
+      object-fit: scale-down;
+      width: 200px;
+    }
+
+    h2 {
+      font-size: clamp(16px, 17px, 30px);
+      text-transform: capitalize;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      text-transform: capitalize;
+      margin-bottom: 1rem;
+    }
+
+    button {
+      border: 1px solid black;
+      cursor: pointer;
+      font-weight: bold;
+      margin: 1rem 0;
+      padding: 1rem;
+    }
+  }
+}
+
+.pagination {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem auto;
+  width: 50%;
+
+  .prev-btn,
+  .actual-page,
+  .next-btn {
+    border: 1px dashed black;
+    color: black;
+    font-weight: bold;
+    margin: 0 1rem;
+    padding: 1rem;
+    text-decoration: none;
+  }
+}
+
+.btn-regresar-home {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+  width: 40%;
+
+  a {
+    background-color: orange;
+    color: black;
+    font-size: clamp(16px, 22px, 25px);
+    font-weight: bold;
+    padding: 1rem;
+    text-decoration: none;
+  }
+}
